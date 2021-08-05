@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../Imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo_harry_potter{
+    width: 0px;
+    transition: 1s all;
+}
+
+nav{
+    background: linear-gradient(black, transparent);
+    height: 80px;
+}
+
+nav img{
+    cursor: pointer;
+}
+
+.personaje{
+    overflow: hidden;
+    width: 300px;
+    height: 500px;
+    margin: 20px;
+    background-color: rgb(55, 53, 56);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.412);
+    transition: 1s all;
+}
+
+.personaje img{
+    margin: 0 0 10px 0;
+    object-fit: cover;
+    height: 350px;
+    border-radius: 20px;
+}
+
+
+ul{
+  padding-top: 15px;
+  font-size: 1.4rem;  
+}
+
+ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+ul li:hover{
+    color: yellow;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.separador{
+    padding: 0 10px;
+}
